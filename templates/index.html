@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abai Academy</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/feedback.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="header-top">
+        <div class="container d-flex">
+            <div class="contact-info">
+                <a href="javascript:void(0);">
+                    <i class="fas fa-map-marker-alt"></i>
+                    Алматы, Масаншы көшесі , 39
+                </a>
+                <a href="tel:+77778943590">
+                    <i class="fas fa-mobile-alt"></i>
+                    +7 777 894 3590
+                </a>
+            </div>
+            <div class="social-links">
+                <form action="#">
+                    <select name="language" id="language" class="langSelect">
+                        <option value="kz">Қазақша</option>
+                        <option value="ru">Русский</option>
+                    </select>
+                </form>
+                <a href="https://www.instagram.com/abai.academy/" style="color: #e4405f;" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://web.facebook.com/" style="color: #3b5999;" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.vk.com/" style="color: #4c75a3;" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.telegram.org/" style="color: #0088cc;" target="_blank"><i
+                        class="fab fa-telegram"></i></a>
+                <a href="https://www.youtube.com/" style="color: #cd201f;" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <header class="header sticky-top">
+        <div class="container d-flex">
+            <a href="index.html" class="logo-link">
+                <div class="logo d-flex">
+                    <img src="../img/abai_academy.png" alt="LOGO" />
+                    <h3 class="logo-title">Abai <br> Academy</h3>
+                </div>
+            </a>
+            <button type="button" class="nav-button" onclick="toggleNavbar('.navbar')">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="navbar">
+                <a href="index.html" class="active">Басты бет</a>
+                <a href="news.html">Жаңалықтар</a>
+                <a href="services.html">Қызметтер</a>
+                <a href="about-us.html">Біз туралы</a>
+                <a href="gallery">Галерея</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="app-section">
+        <div class="container">
+            <div class="app-banner d-flex">
+                <div class="banner">
+                    <img src="../img/abai_purple-bust.png" alt="ABAI_PNG">
+                </div>
+                <div class="banner-text">
+                    <h3><b>Abai Academy</b> - бұл әр түрлі салада мықты білімі бар адамдарды жұмыспен қамтыған білім
+                        беру қызметтерінің орталығы</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-section">
+        <div class="container">
+            <div class="section-title d-flex">
+                <hr>
+                <h3 class="section-heading">Біздің қызметтер</h3>
+                <hr>
+            </div>
+            <div class="services-block">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-book-reader"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Үй тапсырмасын дайындау және барлық пәндер бойынша сабақ беру</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>ҰБТ-ға дайындық және НЗМ, ҚТЛ, РФММ түсуге дайындау</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Дипломдық және курстық жұмыстар, сондай-ақ рефераттар жазу</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-chess-knight"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Домбыра, шахмат, хореогрофия</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="far fa-futbol"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Футбол, Садақ ату</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-language"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Тілдерді үйреу</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4">
+                        <div class="service-item d-flex">
+                            <div class="service-icon">
+                                <i class="fas fa-balance-scale"></i>
+                            </div>
+                            <div class="service-text">
+                                <p>Заңдық қызметтер</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-link">
+                <a href="services.html">Толығырақ <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-section about-us_section p-0">
+        <div class="dark-bg">
+            <div class="container">
+                <div class="about-us">
+                    <div class="section-title d-flex">
+                        <hr>
+                        <h3 class="section-heading">Біз туралы</h3>
+                        <hr>
+                    </div>
+                    <div class="about-info">
+                        <h3>
+                            Біздің команда - бұл жастық пен тәжірибенің қосындысы! Біздің орталықтың басты мақсаты - жас
+                            ұрпақтың бойында білімге, спорт пен мәдениетке деген сүйіспеншілікті қалыптастыру.
+                        </h3>
+                    </div>
+                    <div class="more-link">
+                        <a href="about-us.html">Толығырақ <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-section">
+        <div class="container">
+            <div class="section-title d-flex">
+                <hr>
+                <h3 class="section-heading">Пікірлер</h3>
+                <hr>
+            </div>
+            <div class="slider">
+                <div class="slider__wrapper">
+                    <div class="slider__items">
+                        <div class="slider__item slider__item_1">
+                            <div class="slider__item_inner">
+                                <span class="slider__item_img">
+                                    <img class="slider__item_photo" src="../img/feedback-ava.jfif" alt="">
+                                </span>
+                                <span class="slider__item_testimonial">
+                                    <span class="slider__item_name">Ismael Matsuura</span>
+                                    <span class="slider__item_post">Web Developer</span>
+                                    <span class="slider__item_text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo
+                                        molestiae perspiciatis qui vero?
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="slider__item slider__item_2">
+                            <div class="slider__item_inner">
+                                <span class="slider__item_img">
+                                    <img src="../img/feedback-ava.jfif" alt="">
+                                </span>
+                                <span class="slider__item_testimonial">
+                                    <span class="slider__item_name">Lawanda Batchelder</span>
+                                    <span class="slider__item_post">Web Designer</span>
+                                    <span class="slider__item_text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo
+                                        molestiae perspiciatis qui vero?
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="slider__item slider__item_3">
+                            <div class="slider__item_inner">
+                                <span class="slider__item_img">
+                                    <img src="../img/feedback-ava.jfif" alt="">
+                                </span>
+                                <span class="slider__item_testimonial">
+                                    <span class="slider__item_name">Bennett Arbogast</span>
+                                    <span class="slider__item_post">Web Developer</span>
+                                    <span class="slider__item_text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo
+                                        molestiae perspiciatis qui vero?
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="slider__item slider__item_4">
+                            <div class="slider__item_inner">
+                                <span class="slider__item_img">
+                                    <img src="../img/feedback-ava.jfif" alt="">
+                                </span>
+                                <span class="slider__item_testimonial">
+                                    <span class="slider__item_name">Shanna Parcell</span>
+                                    <span class="slider__item_post">Web Designer</span>
+                                    <span class="slider__item_text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim nihil quo
+                                        molestiae perspiciatis qui vero?
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="slider__control slider__control_prev" href="#" role="button"></a>
+                <a class="slider__control slider__control_next" href="#" role="button"></a>
+            </div>
+    </section>
+
+    <section class="app-section">
+        <div class="container">
+            <div class="section-title d-flex">
+                <hr>
+                <h3 class="section-heading">Соңғы жаңалықтар</h3>
+                <hr>
+            </div>
+            <div class="news-block">
+                <div class="news-item">
+                    <div class="row">
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="card">
+                                <img src="../img/img.jpg" class="card-img-top" alt="CARD_IMG">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">News title</h5>
+                                    </a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="card">
+                                <img src="../img/img.jpg" class="card-img-top" alt="CARD_IMG">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">News title</h5>
+                                    </a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4">
+                            <div class="card">
+                                <img src="../img/img.jpg" class="card-img-top" alt="CARD_IMG">
+                                <div class="card-body">
+                                    <a href="#">
+                                        <h5 class="card-title">News title</h5>
+                                    </a>
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the bulk of the card's content.</p>
+                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-link">
+                <a href="news.html">Жаңалықтарға өту <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-section">
+        <div class="container">
+            <div class="section-title d-flex">
+                <hr>
+                <h3 class="section-heading">Бізбен байланыс</h3>
+                <hr>
+            </div>
+            <div class="contact">
+                <div class="contact-info-block d-flex">
+                    <p>
+                        <i class="fas fa-map-marker-alt"></i>
+                        Алматы қаласы, Масаншы көшесі , 39
+                    </p>
+                    <p>
+                        <a href="tel:+77778943590">
+                            <i class="fas fa-mobile-alt"></i>
+                            +7 777 894 3590
+                        </a>
+                    </p>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://yandex.com/map-widget/v1/?um=constructor%3A82e9fed236b150e9e54c2fb7ee15986c360d8a8b893bf10a4f64664f6c50f972&amp;source=constructor"
+                        width="100%" height="508" frameborder="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container d-flex">
+            <p>
+                &copy; ABAI ACADEMY. Барлық құқықтар қорғалған
+            </p>
+            <div class="social-links">
+                <a href="https://www.instagram.com/abai.academy/" style="color: #e4405f;" target="_blank"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://web.facebook.com/" style="color: #3b5999;" target="_blank"><i
+                        class="fab fa-facebook"></i></a>
+                <a href="https://www.vk.com/" style="color: #4c75a3;" target="_blank"><i class="fab fa-vk"></i></a>
+                <a href="https://www.telegram.org/" style="color: #0088cc;" target="_blank"><i
+                        class="fab fa-telegram"></i></a>
+                <a href="https://www.youtube.com/" style="color: #cd201f;" target="_blank"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/feedback.js"></script>
+</body>
+
+</html>

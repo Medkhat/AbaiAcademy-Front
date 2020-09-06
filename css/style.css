@@ -203,15 +203,25 @@ form {
 .dark-bg {
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 50px 0;
 }
 .about-us_section {
-    background-image: url(../img/about-section-bg.jpg);
+    background-image: url(../img/teachers/teachers1.jpeg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+}
+.about-us-first-section {
+    background-image: url(../img/about-section-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+}
+.about-us-first-section .dark-bg {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 .contact-info-block {
     justify-content: space-between;
@@ -291,4 +301,105 @@ form {
     display: block;
     color: #549843;
     font-size: 14px;
+}
+.about-us-texts h4 {
+    line-height: 1.5em;
+    padding-left: 30px;
+    font-style: italic;
+    border-left: 4px solid #549843;
+    color: #FFF;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.teachers .card-title {
+    color: #549843;
+}
+.teachers .card-text {
+    margin-bottom: 0;
+}
+.teachers .card-text i {
+    color: #549843;
+    margin-right: 5px;
+}
+.teachers img.card-img-top {
+    height: 392px;
+    object-fit: cover;
+    -o-object-fit: cover;
+}
+.gallery-container {
+    display: grid;
+    display: -moz-grid;
+    display: -ms-grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+}
+.gallery-container-item {
+    width: 100%;
+    height: 100%;
+    position: relative;  
+    border-radius: 10px;  
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.5);
+}
+.c-1 {
+    grid-column: span 1;
+}
+.c-2 {
+    grid-column: span 2;
+}
+.c-3 {
+    grid-column: span 3;
+}
+.c-4 {
+    grid-column: span 4;
+}
+.c-5 {
+    grid-column: span 5;
+}
+.c-6 {
+    grid-column: span 6;
+}
+.r-1 {
+    grid-row: span 1;
+}
+.r-2 {
+    grid-row: span 2;
+}
+.r-3 {
+    grid-row: span 3;
+}
+.r-4 {
+    grid-row: span 4;
+}
+.r-5 {
+    grid-row: span 5;
+}
+.r-6 {
+    grid-row: span 6;
+}
+.gallery-item {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.gallery-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -o-object-fit: cover;
+    object-position: 50% 50%;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+}
+.gallery-item:hover img {
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
 }

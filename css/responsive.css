@@ -72,6 +72,18 @@
     .contact-info, .social-links {
         text-align: center;
     }
+    .gallery-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+    .c-1, .c-2, .c-3, .c-3, .c-4, .c-5, .c-6 {
+        grid-column: span 1;
+    }
 }
 
 @media screen and (max-width: 480px) {

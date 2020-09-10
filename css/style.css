@@ -564,3 +564,14 @@ form {
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.pagination a.page-link {
+    color: #549843 !important;
+}
+.pagination a.page-link.active {
+    background-color: #549843;
+    color: #fff !important;
+}
+.pagination a.page-link:focus {
+    box-shadow: none !important;
+}

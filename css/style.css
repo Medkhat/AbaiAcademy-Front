@@ -578,9 +578,29 @@ form {
 }
 
 .youtube-video {
-    height: 500px;
+    height: 300px;
 }
 .youtube-video iframe {
     width: 100%;
     height: 100%;
+}
+
+.owl-nav [class*="owl-"] {
+    position: absolute !important;
+    top: 45%;
+    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+}
+.owl-nav [class*="owl-"] span {
+    font-size: 60px;
+    color: #549843;
+}
+.owl-nav .owl-prev {
+    left: -40px;
+}
+.owl-nav .owl-next {
+    right: -40px;
 }

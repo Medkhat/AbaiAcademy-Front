@@ -52,6 +52,9 @@
         margin-left: 0;
         margin-top: 30px;
     }
+    .youtube-video {
+        height: 300px;
+    }
     
 }
 @media screen and (max-width: 767px) {

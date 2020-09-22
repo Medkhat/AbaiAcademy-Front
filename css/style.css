@@ -575,3 +575,11 @@ form {
 .pagination a.page-link:focus {
     box-shadow: none !important;
 }
+
+.youtube-video {
+    height: 500px;
+}
+.youtube-video iframe {
+    width: 100%;
+    height: 100%;
+}
